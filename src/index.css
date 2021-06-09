@@ -29,7 +29,8 @@ ul {
   text-transform: uppercase;
   font-weight: 500;
   text-decoration: underline;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   letter-spacing: 1.5px;
 }
 
