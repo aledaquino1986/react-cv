@@ -48,7 +48,7 @@ export const courses = [
 
   {
     id: 5,
-    year: "February 2021 - ongoing",
+    year: "Feb 2021 - ongoing",
     degree: "Full-stack web developer",
     institution: "rArgentina Programa"
   }

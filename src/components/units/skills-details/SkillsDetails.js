@@ -1,15 +1,15 @@
 import React from "react";
-import "./language-detail.css";
+import "./skills-details.css";
 
-const LanguageDetails = ({ language, level }) => {
+const SkillsDetails = ({ language, level, rightSide }) => {
   return (
     <li className="language-item">
       <h4 className="text">{language}</h4>
-      <span className="percent">
+      <span className={rightSide ? `right-percent` : `left-percent`}>
         <div style={{ width: level }}></div>
       </span>
     </li>
   );
 };
 
-export default LanguageDetails;
+export default SkillsDetails;

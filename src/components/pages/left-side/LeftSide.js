@@ -4,8 +4,8 @@ import Contact from "../../sections/contact/Contact";
 import "./leftside.css";
 import Education from "../../sections/education/Education";
 import { courses, education } from "../../../states/educationStates";
-import LanguagesSection from "../../sections/languages/LanguagesSection";
-import { languages } from "../../sections/languages/languages";
+import Skills from "../../sections/skills/Skills";
+import { languages } from "../../sections/skills/languages";
 
 const LeftSide = () => {
   return (
@@ -14,7 +14,7 @@ const LeftSide = () => {
       <Contact />
       <Education heading="Education" education={education} />
       <Education heading="courses" education={courses} />
-      <LanguagesSection languages={languages} />
+      <Skills languages={languages} heading="Languages" />
     </aside>
   );
 };
