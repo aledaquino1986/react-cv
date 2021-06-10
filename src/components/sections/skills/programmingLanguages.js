@@ -19,7 +19,7 @@ export const programmingLanguages = [
 
   {
     id: 4,
-    language: "Express/NodeJS",
+    language: "Express",
     level: "80%"
   },
 
