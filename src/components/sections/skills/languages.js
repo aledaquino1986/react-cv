@@ -1,7 +1,7 @@
 export const languages = [
   {
     id: 1,
-    language: "spanish",
+    language: "Spanish",
     level: "100%"
   },
 
