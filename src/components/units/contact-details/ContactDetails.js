@@ -5,7 +5,7 @@ import { ThemeContext } from "../../../context/ThemeContext";
 
 import "./contact-details.css";
 
-const ContactDetails = ({ text, icon }) => {
+const ContactDetails = ({ text, link = false, icon, textLink = "" }) => {
   const { theme } = useContext(ThemeContext);
   return (
     <li>
@@ -13,7 +13,15 @@ const ContactDetails = ({ text, icon }) => {
         <FontAwesomeIcon className={`fa-icon fa-icon-${theme}`} icon={icon} />
       </span>
       <span className="data">
-        <p>{text}</p>
+        {link ? (
+          <p>
+            <a href={text} target="_blank">
+              {textLink === "" ? text : `${textLink} : ${text}`}
+            </a>
+          </p>
+        ) : (
+          <p>{text}</p>
+        )}
       </span>
     </li>
   );

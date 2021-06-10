@@ -25,12 +25,19 @@ const Contact = () => {
         />
         <ContactDetails
           text={"https://aleaquino.netlify.app/"}
+          textLink={"Portfolio"}
           icon={faGlobe}
+          link={true}
         />
-        <ContactDetails text={"www.linkedin.com"} icon={faLinkedin} />
+        <ContactDetails
+          text={"https://www.linkedin.com/in/alejandro-aquino/"}
+          link={true}
+          icon={faLinkedin}
+        />
         <ContactDetails
           text={"https://github.com/aledaquino1986"}
           icon={faGithub}
+          link={true}
         />
         <ContactDetails text={"Buenos Aires, Argentina"} icon={faMapMarker} />
       </ul>
