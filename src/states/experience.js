@@ -72,8 +72,7 @@ export const workExperience = [
     id: 6,
     year: "2011 -  2017",
     title: "English Teacher and translator",
-    company:
-      "Mediterranean Shipping Company, Kimberly Clark, Pepsi, Public Schools",
+    company: "MSC, Kimberly Clark, Pepsi, Public Schools",
     roles: [
       "English classes to students of different levels: from A1 (beginners) to C2 (advanced)",
       "Lesson planning",

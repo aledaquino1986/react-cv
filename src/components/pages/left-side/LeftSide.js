@@ -9,7 +9,7 @@ import { languages } from "../../sections/skills/languages";
 import { ThemeContext } from "../../../context/ThemeContext";
 
 const LeftSide = () => {
-  const { theme, setTheme, changeTheme } = useContext(ThemeContext);
+  const { theme, changeTheme } = useContext(ThemeContext);
   return (
     <aside className={`left-side left-side-${theme}`}>
       {theme === "light" ? (

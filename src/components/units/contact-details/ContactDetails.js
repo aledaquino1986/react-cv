@@ -15,7 +15,7 @@ const ContactDetails = ({ text, link = false, icon, textLink = "" }) => {
       <span className="data">
         {link ? (
           <p>
-            <a href={text} target="_blank">
+            <a href={text} target="_blank" rel="noreferrer">
               {textLink === "" ? text : `${textLink} : ${text}`}
             </a>
           </p>
