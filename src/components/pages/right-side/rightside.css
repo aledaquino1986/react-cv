@@ -7,6 +7,33 @@
   color: black;
 }
 
+.right-side-dark h2 {
+  color: #fff;
+}
+
 .right-side h2 {
   padding: 1rem 0;
+}
+
+/*Dark Mode*/
+
+.right-side-dark h4 {
+  color: #d57ee4;
+}
+
+.right-side-dark p,
+.right-side-dark li {
+  color: white;
+}
+
+.right-side-dark span {
+  color: #add1d8;
+}
+
+.right-side-dark .language-item .right-percent {
+  background-color: rgb(238, 224, 224);
+}
+
+.right-side-dark .language-item div {
+  background-color: #533358;
 }
