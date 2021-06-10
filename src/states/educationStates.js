@@ -35,7 +35,7 @@ export const courses = [
   {
     id: 3,
     year: "November 2020",
-    degree: "Javascript: The Hard Parts",
+    degree: "JS: The Hard Parts",
     institution: "Front End Masters"
   },
 
