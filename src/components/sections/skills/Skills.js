@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsDetails from "../../units/skills-details/SkillsDetails";
-import "./languages.css";
+import "./skills.css";
 
 function Skills({ languages, heading = "Languages", rightSide }) {
   return (

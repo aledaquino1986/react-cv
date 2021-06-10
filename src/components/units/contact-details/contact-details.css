@@ -1,0 +1,13 @@
+.fa-icon.fa-icon-dark,
+.fa-icon.fa-icon-light {
+  font-size: 1.5rem;
+  width: 1em;
+}
+
+.fa-icon-light {
+  color: #03a9f4;
+}
+
+.fa-icon-dark {
+  color: #d57ee4;
+}

@@ -24,6 +24,18 @@
   background-color: #03a9f4;
 }
 
+.left-percent-light div {
+  background-color: #03a9f4;
+}
+
+.left-percent-dark {
+  background-color: white;
+}
+
+.left-percent-dark div {
+  background-color: #d57ee4;
+}
+
 .left-side__ul {
   padding-right: 1.6rem;
 }

@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../../context/ThemeContext";
 import "./education-details.css";
 
 const EducationDetails = ({ year, degree, institution }) => {
+  const { theme } = useContext(ThemeContext);
   return (
     <div className="education-container">
       <div className="education-details">
         <span className="education-details_year">
-          <h5>{year}</h5>
+          <h5 className={`education-details-year-${theme}`}>{year}</h5>
         </span>
         <span>
           <h4 className="education-details_degree">{degree}</h4>

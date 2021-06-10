@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import ContactDetails from "../../units/contact-details/ContactDetails";
 import {
   faPhone,
@@ -9,8 +9,10 @@ import {
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import "./contact.css";
+import { ThemeContext } from "../../../context/ThemeContext";
 
 const Contact = () => {
+  const { theme } = useContext(ThemeContext);
   return (
     <section className="contact-section">
       <h3 className="text3-heading">Contact Info</h3>

@@ -1,5 +1,22 @@
 .left-side {
-  background-color: #003147;
   padding: 2.5rem;
+}
+
+.left-side-light {
+  background-color: #035277;
+
   color: #fff;
+}
+
+.left-side-dark {
+  background-color: #202124;
+
+  color: #fff;
+}
+
+.theme-button {
+  font-size: 2.5rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
